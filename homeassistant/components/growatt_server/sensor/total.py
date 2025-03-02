@@ -51,4 +51,12 @@ TOTAL_SENSOR_TYPES: tuple[GrowattSensorEntityDescription, ...] = (
         native_unit_of_measurement=UnitOfPower.WATT,
         device_class=SensorDeviceClass.POWER,
     ),
+    GrowattSensorEntityDescription(
+        key="total_import_from_grid",
+        translation_key="total_import_from_grid",
+        api_key="eToUserTotal",
+        native_unit_of_measurement=UnitOfEnergy.KILO_WATT_HOUR,
+        device_class=SensorDeviceClass.ENERGY,
+        state_class=SensorStateClass.TOTAL,
+    ),
 )

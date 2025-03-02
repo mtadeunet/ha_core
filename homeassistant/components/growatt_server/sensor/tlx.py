@@ -430,4 +430,25 @@ TLX_SENSOR_TYPES: tuple[GrowattSensorEntityDescription, ...] = (
         native_unit_of_measurement=PERCENTAGE,
         device_class=SensorDeviceClass.BATTERY,
     ),
+    GrowattSensorEntityDescription(
+        key="tlx_local_load",
+        translation_key="tlx_local_load",
+        api_key="pacToLocalLoad",
+        native_unit_of_measurement=UnitOfEnergy.WATT_HOUR,
+        device_class=SensorDeviceClass.ENERGY,
+    ),
+    GrowattSensorEntityDescription(
+        key="tlx_local_to_grid",
+        translation_key="tlx_local_to_grid",
+        api_key="pacToGridTotal",
+        native_unit_of_measurement=UnitOfEnergy.WATT_HOUR,
+        device_class=SensorDeviceClass.ENERGY,
+    ),
+    GrowattSensorEntityDescription(
+        key="tlx_local_to_user",
+        translation_key="tlx_local_to_user",
+        api_key="pacToUserTotal",
+        native_unit_of_measurement=UnitOfEnergy.WATT_HOUR,
+        device_class=SensorDeviceClass.ENERGY,
+    ),
 )

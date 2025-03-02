@@ -35,34 +35,34 @@
         "name": "Lifetime energy output"
       },
       "inverter_voltage_input_1": {
-        "name": "Input 1 voltage"
+        "name": "Panel array 1 voltage"
       },
       "inverter_amperage_input_1": {
-        "name": "Input 1 Amperage"
+        "name": "Panel array 1 amperage"
       },
       "inverter_wattage_input_1": {
-        "name": "Input 1 Wattage"
+        "name": "Panel array 1 wattage"
       },
       "inverter_voltage_input_2": {
-        "name": "Input 2 voltage"
+        "name": "Panel array 2 voltage"
       },
       "inverter_amperage_input_2": {
-        "name": "Input 2 Amperage"
+        "name": "Panel array 2 amperage"
       },
       "inverter_wattage_input_2": {
-        "name": "Input 2 Wattage"
+        "name": "Panel array 2 wattage"
       },
       "inverter_voltage_input_3": {
-        "name": "Input 3 voltage"
+        "name": "Panel array 3 voltage"
       },
       "inverter_amperage_input_3": {
-        "name": "Input 3 Amperage"
+        "name": "Panel array 3 amperage"
       },
       "inverter_wattage_input_3": {
-        "name": "Input 3 Wattage"
+        "name": "Panel array 3 wattage"
       },
       "inverter_internal_wattage": {
-        "name": "Internal wattage"
+        "name": "Total panel production"
       },
       "inverter_reactive_voltage": {
         "name": "Reactive voltage"
@@ -444,6 +444,18 @@
       },
       "total_maximum_output": {
         "name": "Maximum power"
+      },
+      "tlx_local_load": {
+        "name": "Local load"
+      },
+      "tlx_local_to_grid": {
+        "name": "Export to grid"
+      },
+      "tlx_local_to_user": {
+        "name": "Local import from grid"
+      },
+      "total_import_from_grid": {
+        "name": "Total imported from grid"
       }
     }
   }
